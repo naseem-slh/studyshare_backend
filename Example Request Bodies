@@ -1,0 +1,158 @@
+GEDACHT FÜR DAS TESTEN MIT POSTMAN. BODIES SIND NICHT IMMER KORREKT.
+
+{
+  "name": "Example Module",
+  "description": "This is a sample module for demonstration.",
+  "visibility": "Public",
+  "score": 0,
+  "cardSetCount": 0,
+  "fileCount": 0,
+  "creator": {
+    "id": 1
+  },
+  "originModule": null,
+  "rootDirectory": {},
+  "cardSets": [],
+  "owners": []
+}
+
+{
+  "name": "Sample Directory",
+  "visibility": "Public",
+  "creator": {
+    "id": 1
+  },
+  "mainDirectory": {
+    "id": 1
+  },
+  "files": [],
+  "subDirectories": []
+}
+
+{
+  "name": "Your Card Set Name",
+  "visibility": "Public",
+  "createdAt": "2023-12-14T12:00:00",
+  "score": 0,
+  "module": {
+    "id": 1,
+    "creator": {
+        "id": 1,
+        "name": "Admin",
+        "email": "admin@gmail.com",
+        "visibility": "Public",
+        "role": "Admin",
+        "description": "Hello, I'm Admin!",
+        "username": "admin@gmail.com"
+    },
+    "originModule": null,
+    "rootDirectory": {
+        "id": 1
+    },
+    "owners": []
+},
+  "creator": {
+    "id": 1
+  },
+  "cards": [
+    {
+      "question": "Card 1 Question",
+      "answer": "Card 1 Answer"
+    },
+    {
+      "question": "Card 2 Question",
+      "answer": "Card 2 Answer"
+    }
+  ],
+  "cardCount": 2
+}
+
+{
+    "question": {
+        "text": "What are the common HTTP methods?",
+        "imageData": null
+    },
+    "answer": {
+        "text": "GET, POST, PUT, DELETE, HEAD, OPTIONS, PATCH, TRACE, CONNECT",
+        "imageData": null
+    },
+    "wrongAnswers": [],
+    "creator": {
+        "id": 1,
+        "name": "Admin",
+        "email": "admin@gmail.com",
+        "visibility": "Public",
+        "role": "Admin",
+        "description": "Hello, I'm Admin!",
+        "username": "admin@gmail.com"
+    },
+    "status": "Ok",
+    "flagged": false,
+    "cardSet": {
+        "id": 1,
+        "originCardSetId": null,
+        "name": "Web Engineering II Quiz",
+        "visibility": "Public",
+        "createdAt": "2023-12-11T15:39:34.830+00:00",
+        "score": 38,
+        "module": {
+            "id": 1,
+            "name": "Web Engineering II",
+            "description": "Explore advanced concepts in web engineering",
+            "visibility": "Public",
+            "createdAt": "2023-12-11T15:39:34.818+00:00",
+            "score": 38,
+            "cardSetCount": 1,
+            "fileCount": 1,
+            "creator": {
+                "id": 1,
+                "name": "Admin",
+                "email": "admin@gmail.com",
+                "visibility": "Public",
+                "role": "Admin",
+                "description": "Hello, I'm Admin!",
+                "username": "admin@gmail.com"
+            },
+            "originModule": null,
+            "rootDirectory": {
+                "id": 1,
+                "name": "Web Engineering II Directory",
+                "visibility": "Public",
+                "createdAt": "2023-12-11T15:39:34.818+00:00",
+                "creator": {
+                    "id": 1,
+                    "name": "Admin",
+                    "email": "admin@gmail.com",
+                    "visibility": "Public",
+                    "role": "Admin",
+                    "description": "Hello, I'm Admin!",
+                    "username": "admin@gmail.com"
+                },
+                "mainDirectory": null
+            },
+            "owners": [
+                {
+                    "id": 1,
+                    "name": "Admin",
+                    "email": "admin@gmail.com",
+                    "visibility": "Public",
+                    "role": "Admin",
+                    "description": "Hello, I'm Admin!",
+                    "username": "admin@gmail.com"
+                },
+                {
+                    "id": 2,
+                    "name": "User",
+                    "email": "user@gmail.com",
+                    "visibility": "Public",
+                    "role": "User",
+                    "description": "I'm User!",
+                    "username": "user@gmail.com"
+                }
+            ]
+        },
+        "cardCount": 2
+    }
+}
+
+

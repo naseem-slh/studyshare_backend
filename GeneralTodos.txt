@@ -1,0 +1,6 @@
+ TODO: javadoc für alles
+ TODO: Verhalten vom Score beim Löschen von CardSets und Cards besprechen.
+ TODO: Score eines leeren Cardsets berücksichtigen. (evtl. über Status oder )
+
+
+TODO: Beim Erstellen eines Moduls
